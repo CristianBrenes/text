@@ -1,0 +1,57 @@
+@import url('http://127.0.0.1:5500/contact.html');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body 
+{
+    background-image:url("lawn.jpg");
+    background-color: #f9f9f9;
+    height: 100%;
+    background-size:contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.name {
+    font-size: xx-large;
+    color: aquamarine;
+    pointer-events: none;
+}
+
+.navigation a 
+{
+    text-decoration: none;
+    font-size:large;
+    color:aquamarine;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+
+.navigation a:hover,
+.navigation a.active
+{
+    background: aquamarine;
+    color:#f9f9f9;
+}

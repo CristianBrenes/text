@@ -1,0 +1,98 @@
+@import url('http://127.0.0.1:5500/Website%20Project/index.html');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body 
+{
+    background-image:url("lawn.jpg");
+    background-color: #f9f9f9;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.name {
+    font-size: xx-large;
+    color: aquamarine;
+    pointer-events: none;
+}
+
+.navigation a 
+{
+    text-decoration: none;
+    font-size:large;
+    color:aquamarine;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+
+}
+
+.navigation a:hover,
+.navigation a.active
+{
+    background: aquamarine;
+    color:#f9f9f9;
+}
+
+.parallax
+{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+#text
+{
+    position: absolute;
+    font-size:80px;
+    color: aquamarine;
+    text-shadow: 2px 2px 2px black;
+}
+
+.description
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    position: relative;
+    background: aquamarine;
+    padding: 100px;
+}
+
+.description h2
+{
+    color:green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position:relative;
+}
+
+.description p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:darkgreen
+}
